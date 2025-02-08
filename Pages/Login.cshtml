@@ -1,0 +1,28 @@
+﻿@page
+@model DisasterAlleviationFoundation.Pages.LoginModel
+@{
+}
+
+<h2>Login</h2>
+
+<form method="post">
+<div class="login-page">
+    <div class="form">
+        <form class="register-form">
+            <br />
+            <label for="Username">Username</label><br>
+            <input type="text" id="Username"  name="Username" placeholder="Enter your usernmame" />
+            <br />
+            <label for="Password">Password</label><br>
+                <input type="text" id="Password" name="Password" placeholder="Enter your password" />
+            <br />
+
+            <button type="submit" class="btn btn-primary">Login</button>
+          
+            <p class="message">Create new account? <a href="/Registration">Register</a></p>
+
+        </form>
+       
+    </div>
+</div>
+</form>
